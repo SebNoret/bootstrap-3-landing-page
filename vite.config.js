@@ -9,7 +9,7 @@ const dev = "http://localhost:5173/";
 const prod = "https://sebnoret-portfolio.netlify.app/landing-page/demo/";
 
 export default defineConfig({
-  base: test,
+  base: prod,
   plugins: [
     legacy({
       targets: ["defaults", "not IE 11"],
